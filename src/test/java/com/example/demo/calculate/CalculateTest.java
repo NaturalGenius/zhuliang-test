@@ -10,8 +10,6 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
-import org.junit.jupiter.api.TestInstance.Lifecycle;
 
 @DisplayName("CalculateTest ....")
 public class CalculateTest {
@@ -34,8 +32,8 @@ public class CalculateTest {
     }
     
     @Test
-    @DisplayName("testsubstract")
-    public void testsubstract(){
+    @DisplayName("testsubstractdddddddddddddddd")
+    void testsubstract(){
         System.out.println("testsubstract........");
         assertEquals(2,new Calculate().substract(5, 3));
     }
@@ -48,9 +46,9 @@ public class CalculateTest {
         assertEquals(15,new Calculate().cheng(5, 3));
     }
     @Test
-    @DisplayName("testchu")
+    @DisplayName("testch")
     void testchu(){
-        System.out.println("testchu........");
+        System.out.println("哈哈哈哈");
         assertEquals(2,new Calculate().chu(6, 3));
     }
     @Test
