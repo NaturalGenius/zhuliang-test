@@ -48,7 +48,7 @@ public class CalculateTest {
     @Test
     @DisplayName("testch")
     void testchu(){
-        System.out.println("哈哈哈哈");
+        System.out.println("朱亮哈");
         assertEquals(2,new Calculate().chu(6, 3));
     }
     @Test
