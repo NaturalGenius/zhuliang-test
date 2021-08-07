@@ -9,7 +9,6 @@ import java.util.Stack;
 
 import org.junit.jupiter.api.Test;
 
-import com.alibaba.fastjson.JSON;
 
 public class SuanfaTest extends BaseTest{
 
@@ -142,6 +141,6 @@ public class SuanfaTest extends BaseTest{
         Map<Integer, String> map = new HashMap<>();
         map.put(1, "aaaaaa");
         map.put(2, "bbbbbb");
-        System.out.println(JSON.toJSONString(map));
+        System.out.println(map);
     }
 }
