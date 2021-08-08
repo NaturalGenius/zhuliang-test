@@ -1,6 +1,5 @@
 package com.example.demo.calculate;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 public class DoublePointerDay05 {
 
